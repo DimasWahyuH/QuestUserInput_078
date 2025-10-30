@@ -100,3 +100,15 @@ fun FormDataDiri(modifier: Modifier
              }
          ) {
              Text(text = stringResource(R.string.submit))
+
+         }
+         Divider(
+             modifier = Modifier.padding(
+                 bottom = dimensionResource(R.dimen.padding_medium), top = dimensionResource(
+                     R.dimen.padding_medium
+                 )
+             ),
+             thickness = dimensionResource(R.dimen.divider_tipis),
+             color = Color.DarkGray
+         )
+
